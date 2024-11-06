@@ -144,6 +144,23 @@ MonoBehaviour:
   paddingRight: 0.5
   paddingTop: 5
   paddingBottom: 2
+--- !u!114 &398991188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398991178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ee7ddda3da4000408ff5b061fb98172, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 4873407769046480118, guid: b298d5a422e860b45bc0e98385cae117, type: 3}
+  projectileSpeed: 10
+  projectileLifetime: 5
+  firingRate: 0.2
+  isFiring: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,6 +402,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a51906d390fbfa145be6c113bc42aafb, type: 2}
   - {fileID: 11400000, guid: 0dcf7a4338182bb4e85e984465484fac, type: 2}
   timeBetweenWaves: 2
+  isLooping: 0
 --- !u!4 &1024220728
 Transform:
   m_ObjectHideFlags: 0
@@ -460,6 +478,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4607566113890557516, guid: 43db5e329eaba194f83d5c0078994363, type: 3}
       insertIndex: -1
       addedObject: {fileID: 398991182}
+    - targetCorrespondingSourceObject: {fileID: 4607566113890557516, guid: 43db5e329eaba194f83d5c0078994363, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 398991188}
   m_SourcePrefab: {fileID: 100100000, guid: 43db5e329eaba194f83d5c0078994363, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
